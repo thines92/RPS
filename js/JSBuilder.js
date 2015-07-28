@@ -1,3 +1,4 @@
+
 var userChoice = prompt("Please choose: Rock, Paper or Scissors?").toLowerCase();
 
 var computerChoice = Math.random();
@@ -32,5 +33,9 @@ else {
 
 
 
-document.write(userChoice);
-document.write(computerPick);
+
+//document.write(userChoice);
+//document.write(computerPick);
+
+
+
