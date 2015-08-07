@@ -2,10 +2,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Resume</title>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Rock, Paper Scissors</title>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jQ.js"></script>
+
+  <link href="css/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
@@ -15,25 +17,47 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="header">
+      <div class="pull-left">
+          <a  href="/index.html">
+            <ul class="nav">Home</>
+          </a>
+        </div>
+    </div>
+  </div>
 	<div class ="container">
 		<div class = "row">
-			<div class = "col-md-12 text-center">
-			<h1>"Rock Paper Scissors!"</h1>
-			</div>
+      <div class="header2">
+				<h1>Rock Paper Scissors!</h1>
+      </div>
 		</div>
+	</div>
+	<div class="container">
 		<div class = "row">
-			<div class = "main row">
-				<div class = "col-md-12 result text-center">
-				 	<script src="js/JSBuilder.js"></script>
+			<div class = "jumbotron">
+				<div id="callhere">
+          <div>
+            <p>Press the button to start playing!</p>
+          </div>
+					<a class="button" href="#">Click to play!</a>
 				</div>
+        <div>
+          <p id="result"></p>
+        </div>
 			</div>
 		</div>
+	</div>
+
+		<div class = "row">
+		</div>
+
 	</div>
 
 
 
 
 
-
+ <script src="js/JSBuilder.js"></script>
 
 </body>
