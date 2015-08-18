@@ -1,16 +1,16 @@
 function rps() {
-	var userChoice = prompt("Please choose: Rock, Paper or Scissors?").toLowerCase();
+	var userChoice = document.getElementById('userInput').value;
 
 	var computerChoice = Math.random();
 	var computerPick;
 
-	if (computerChoice < .33) {
+	if (computerChoice >= 0 && computerChoice < .33) {
 		var computerPick = "rock";
 	}
-	if (computerChoice >= .33 || computerChoice < .66) {
+	if (computerChoice >= .33 && computerChoice < .66) {
 		var computerPick = "paper";
 	}
-	if (computerChoice >= .66) {
+	if (computerChoice >= .66 && computerChoice <= 1) {
 		var computerPick = "scissors";
 	};
 
@@ -34,4 +34,4 @@ function rps() {
 	document.getElementById("result").innerHTML = userChoice;*/
 }
 
-document.getElementById("callhere").onclick = function() {rps()};
+document.getElementById("callhere").onsubmit = function() {rps()};

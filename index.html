@@ -2,57 +2,41 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Rock, Paper Scissors</title>
+  <title>Rock, Paper, Scissors</title>
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/jQ.js"></script>
-
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
-
-
-
 </head>
 
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="pull-left">
-          <a  href="/index.html">
-            <ul class="nav">Home</>
-          </a>
+  <div class="main-page">
+    <div class="container nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>Browse Projects</li>
+      </ul>
+    </div>
+  	<div class ="container header">
+			<h1>Rock Paper Scissors!</h1>
+  	</div>
+  	<div class="container enter-choice">
+			<div id="callhere">
+        <div>
+          <p>Enter either rock, paper, or scissors into the box below to start!</p>
         </div>
+        <form action="" method="post" onsubmit="rps();return false;">
+				  <input type="text" id="userInput" required />
+        </form>
+			</div>
+	  </div>
+    <div class="container result-area">
+      <p id="result"></p>
     </div>
   </div>
-	<div class ="container">
-		<div class = "row">
-      <div class="header2">
-				<h1>Rock Paper Scissors!</h1>
-      </div>
-		</div>
-	</div>
-	<div class="container">
-		<div class = "row">
-			<div class = "jumbotron">
-				<div id="callhere">
-          <div>
-            <p>Press the button to start playing!</p>
-          </div>
-					<a class="button" href="#">Click to play!</a>
-				</div>
-        <div>
-          <p id="result"></p>
-        </div>
-			</div>
-		</div>
-	</div>
-
-		<div class = "row">
-		</div>
-
-	</div>
 
 
 
