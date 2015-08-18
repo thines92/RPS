@@ -23,7 +23,7 @@
 	height: 200px;
 	margin-top: 15px;
 	border-radius: 5px;
-	padding-top: 50px
+	padding-top: 50px;
 }
 .enter-choice p {
 	font-size: 18px;
@@ -33,7 +33,7 @@
 .enter-choice input {
 	border-radius: 5px;
 	margin-top: 10px;
-	margin-left: 42.5%;
+	margin-left: 35em;
 	height: 30px;
 }
 .result-area {

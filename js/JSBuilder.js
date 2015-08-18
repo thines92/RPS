@@ -1,5 +1,5 @@
 function rps() {
-	var userChoice = document.getElementById('userInput').value;
+	var userChoice = document.getElementById('userInput').value.toLowerCase();
 	var computerChoice = Math.random();
 	var computerPick;
 	var image = new Image;
