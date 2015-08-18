@@ -48,3 +48,17 @@
 	font-size: 22px;
 	color: #45fb08;
 }
+.result-area img:first-child {
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.result-area img:nth-child(2) {
+	margin-right: 50px;
+	margin-left: 50px;
+	height: 100px;
+	width: 100px;
+	float: right;
+}
